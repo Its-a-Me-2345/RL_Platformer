@@ -289,7 +289,7 @@ def train_dqn(agent, env, n_episodes=5000, max_t=3000):
             )
 
         if i_episode % 20 == 0:
-            agent.save_checkpoint(f'retrain_dqn_ep{i_episode}_UwU.pth')
+            agent.save_checkpoint(f'retrain_dqn_ep{i_episode}.pth')
 
     print("\nTraining complete.")
 
@@ -311,7 +311,7 @@ if __name__ == '__main__':
 
     agent = DQNAgent(state_shape=state_shape, action_size=action_size, seed=SEED)
 
-    CHECKPOINT_PATH = 'New_train.pth'
+    CHECKPOINT_PATH = 'final_model.pth'
     agent.load_checkpoint(CHECKPOINT_PATH)
 
     train_dqn(agent, env, n_episodes=5000, max_t=3000)

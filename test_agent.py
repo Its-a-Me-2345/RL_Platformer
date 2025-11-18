@@ -12,10 +12,7 @@ from game_env import PlatformerLongEnv
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {DEVICE}")
 
-i = 20
-
-# MODEL_PATH = f'New_train.pth'
-MODEL_PATH = f'retrain_dqn_ep{i}_UwU.pth'
+MODEL_PATH = f'final_model.pth'
 
 N_EPISODES = 3
 
