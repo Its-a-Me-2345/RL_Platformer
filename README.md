@@ -1,4 +1,4 @@
-# RL Platformer - Long Level
+# RL Platformer
 
 A Gymnasium + Pygame 2D platformer environment, trained end-to-end with Deep Q-Network (DQN) using only pixel observations.
 
