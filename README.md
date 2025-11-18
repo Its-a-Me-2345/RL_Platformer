@@ -31,7 +31,7 @@ The trained agent can reliably complete the entire level without failing.
 | `compete.py`      | Human vs Agent race mode (first to the goal wins)                           |
 | `game.py`         | Simple human-playable version                                               |
 | `test_agent.py`   | Watch the trained agent play                                  |
-| `model.pth`       | Trained DQN weights (included in the repo)                                  |
+| `final_model.pth`       | Trained DQN weights (included in the repo)                                  |
 
 ## Observation & Action Space
 - Observation: 84×84 grayscale frames, 4-frame stacked 
